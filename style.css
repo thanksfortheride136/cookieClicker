@@ -1,5 +1,10 @@
+*{
+    border: 5px solid red;
+}
+
 body{
     background-color: black;
+    
   
 }
 
@@ -53,7 +58,6 @@ body{
     margin: 4px 2px; /* Adds space around the button */
     cursor: pointer; /* Changes cursor to a pointer on hover */
     border-radius: 20px; /* Rounds the corners of the button */
-    box-shadow: 0 4px #999; /* Adds a simple box shadow effect */
     transition: all 0.3s ease; /* For a smooth transition effect on hover */
     
 }
