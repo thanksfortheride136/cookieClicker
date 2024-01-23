@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+  
+}
+
+#game-outer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #0d22a0;
+    background-image: linear-gradient(333deg, #0d22a0 0%, #5e1659 46%, #2765a2 100%);
+    align-items: center;
+    margin: auto;
+    width: 50vw;
+    height: 90vh;
+    border-radius: 50px;
+}
+
+#title-container{
+    display: flex;
+    margin-top: 5vh;
+    width: 30vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 8px solid white;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#start-button-container{
+    display: flex;
+    margin-top: 5vh;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#start-button{
+    width: 25vw;
+    height: 10vh;
+    background-color: #5e1659; /* A color from the gradient */
+    color: white; /* Text color */
+    border: none; /* Removes the default border */
+    padding: 10px 20px; /* Adds space inside the button */
+    text-align: center; /* Centers the text inside the button */
+    text-decoration: none; /* Removes any text decoration */
+    display: inline-block; /* Allows setting dimensions */
+    font-size: 16px; /* Sets the text size */
+    margin: 4px 2px; /* Adds space around the button */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    border-radius: 20px; /* Rounds the corners of the button */
+    box-shadow: 0 4px #999; /* Adds a simple box shadow effect */
+    transition: all 0.3s ease; /* For a smooth transition effect on hover */
+    
+}
+
+#start-button:hover {
+    background-color: #2765a2; /* A darker color for the button on hover */
+    box-shadow: 0 6px #666; /* Adjusts the shadow to give a "lifted" effect */
+    transform: translateY(-2px); /* Moves the button up slightly on hover */
+}
+
+#start-button:active {
+    background-color: #0d22a0; /* Even darker color when the button is clicked */
+    box-shadow: 0 2px #666; /* Smaller shadow for a "pressed" effect */
+    transform: translateY(4px); /* Moves the button down to simulate a press */
+}
+
+
+
